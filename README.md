@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![](https://res.cloudinary.com/dko7n7x16/image/upload/v1524730377/Emily_Creative_Photography_Portfolio_2_ex1vyr.png)
 
-Things you may want to cover:
+# Rails PhotoBlock Application
 
-* Ruby version
+Rails PhotoBlock App is an application developed with Rails 5.1 for uploading HD images.
 
-* System dependencies
+![](https://res.cloudinary.com/dko7n7x16/image/upload/v1524730462/Photoblock_mlg0jz.png)
 
-* Configuration
+Basic Features
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+-- More Information Comming Soon
