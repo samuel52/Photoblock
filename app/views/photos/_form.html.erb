@@ -1,0 +1,59 @@
+<body>
+    <div class="ms-main-container loaded" style="opacity: 1;">
+      <!-- Preloader -->
+      <!-- Header -->
+      <header class="ms-header">
+        <nav class="ms-nav">
+          <div class="ms-logo">
+            <a href="/" data-type="page-transition">
+              <div class="logo-dark current"><img src="https://strictcity.live/photoblock/madsparrow.me/emily/logo-dark.svg" alt="logo image"></div>
+              <div class="logo-light"><img src="https://strictcity.live/photoblock/madsparrow.me/emily/logo-light.svg" alt="logo image"></div>
+            </a>
+          </div>
+          
+          </div>
+        </nav>
+      </header>
+      <!-- Container -->
+      <main class="ms-container" style="padding-top: 8em;">
+        <!-- Page Title -->
+        
+        <!-- Page Content -->
+        <div class="ms-section__block">
+          <%= form_with(model: photo, local: true) do |form| %>
+
+  <div class="field">
+    <%= form.label :photo_name %>
+    <%= form.text_field :photo_name, id: :photo_photo_name, :class => 'form-control' %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description %>
+    <%= form.text_area :description, id: :photo_description %>
+  </div>
+
+  <div class="field">
+    <%= form.label :photo_size %>
+    <%= form.text_field :photo_size, id: :photo_photo_size %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %></div>
+      </main>
+      <!-- Footer -->
+      <footer>
+        <div class="ms-footer">
+          <div class="copyright">Copyright © 2017. Design by <a href="https://twitter.com/sammyngn">SammyNGN</a></div>
+          <ul class="socials">
+            <li><a href="#" class="socicon-facebook"></a></li>
+            <li><a href="#" class="socicon-twitter"></a></li>
+            <li><a href="#" class="socicon-instagram"></a></li>
+            <li><a href="#" class="socicon-youtube"></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+</body>
